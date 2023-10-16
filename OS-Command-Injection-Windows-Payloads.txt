@@ -3,6 +3,9 @@
 %0Aid%0A
 !whoami!
 %whoami%
+&cmd\
+yes&cmd
+cmd/
 !%whoami
 %!whoami
 %!whoami!%
